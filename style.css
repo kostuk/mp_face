@@ -1,0 +1,39 @@
+.container {
+  background-color: #596e73;
+}
+video {
+  clear: both;
+  display: block;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+}
+.input_video {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.input_video.selfie{
+  transform: scale(-1, 1);
+
+}
+.input_image {
+  position: absolute;
+}
+
+.canvas-container {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.output_canvas {
+  max-width: 100%;
+  display: block;
+  position: relative;
+  left: 0;
+  top: 0;
+}
